@@ -1,7 +1,49 @@
 
 body {
-	font-family: Georgia, "Times New Roman",Times,serif;
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #222;
+}
+
+/* header styles */
+
+h1.headerstyle {
+	padding: 6px;
+	margin: 0em;
+}
+
+h1.titlestyle {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 0.025em;
+}
+
+h2.subsection {
+	font-size: 12px;
+	border-top: 1px #000 solid;
+}
+
+/* list styles */
+
+ul.navstyle {
+	list-style-type: none;
+	margin: 0em;
+	padding: 6px;
+}
+
+li.navstyle {
+	float: left;
+	margin-right: 1em;
+}
+
+li.bookend {
+	float: left;
+	margin-right: 0em;
+}
+
+img.backgroundstyle {
+	margin-left: 15%;
+	margin-right: 15%;
 }
