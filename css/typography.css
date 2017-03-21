@@ -6,18 +6,31 @@ body {
 	color: #222;
 }
 
+.tail {
+	margin-bottom: 3em;
+}
+
 /* header styles */
 
 h1.headerstyle {
-	padding: 6px;
+	padding-top: 10px;
+	padding-right: 6px;
+	padding-bottom: 10px;
+	padding-left: 6px;
 	margin: 0em;
+	transition: background-color 0.25s ease-in-out;
+}
+
+h1.headerstyle:hover {
+	background-color: yellow;
 }
 
 h1.titlestyle {
 	text-align: center;
 	font-size: 50px;
-	font-weight: 600;
+	font-weight: 100;
 	letter-spacing: 0.025em;
+	margin: 0.6em;
 }
 
 h2.subsection {
@@ -30,18 +43,35 @@ h2.subsection {
 ul.navstyle {
 	list-style-type: none;
 	margin: 0em;
-	padding: 6px;
+	padding: 0px;
 }
 
 li.navstyle {
 	float: left;
-	margin-right: 1em;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	margin: 0px;
+	transition: background-color 0.25s ease-in-out;
 }
 
-li.bookend {
-	float: left;
-	margin-right: 0em;
+li.navstyle:hover {
+	background-color: yellow;
 }
+
+li.active {
+	background-color: yellow;
+}
+
+/* link styles */
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/* image styles */
 
 img.backgroundstyle {
 	margin-left: 15%;
