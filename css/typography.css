@@ -6,6 +6,12 @@ body {
 	color: #222;
 }
 
+em.japanese {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+}
+
 .tail {
 	margin-bottom: 3em;
 }
@@ -13,10 +19,10 @@ body {
 /* header styles */
 
 h1.headerstyle {
-	padding-top: 10px;
-	padding-right: 6px;
-	padding-bottom: 10px;
-	padding-left: 6px;
+	padding-top: 16px;
+	padding-right: 10px;
+	padding-bottom: 14px;
+	padding-left: 10px;
 	margin: 0em;
 	transition: background-color 0.25s ease-in-out;
 }
@@ -28,7 +34,7 @@ h1.headerstyle:hover {
 h1.titlestyle {
 	text-align: center;
 	font-size: 50px;
-	font-weight: 100;
+	font-weight: 300;
 	letter-spacing: 0.025em;
 	margin: 0.6em;
 }
@@ -76,4 +82,10 @@ a {
 img.backgroundstyle {
 	margin-left: 15%;
 	margin-right: 15%;
+}
+
+img.inline {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
